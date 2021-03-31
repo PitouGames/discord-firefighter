@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  discord-firefighter:
+    build:
+      context: .
+    restart: unless-stopped
+    user: "node"
